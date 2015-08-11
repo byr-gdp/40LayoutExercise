@@ -1,10 +1,16 @@
 <!-- 
-三栏布局 浮动实现
 
-content 左对齐且占据50%宽度
-navigation、extra 通过改变 margin-left定位，宽度25%
+三栏布局
 
-footer 清除浮动
+三个部分，分别是wrapper、navigation、extra
+
+要求：
+
+wrapper margin-left:-200px为navigation、extra留出空间 width:100%不能省 
+content margin-left:200px 
+navigation 宽度200px，位于content右侧 float:right
+extra 宽度200px，位于content右侧 float:right; clear: right
+
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -13,31 +19,28 @@ footer 清除浮动
 	<title>Document</title>
 	<link rel="stylesheet" href="normalize.css">
 	<style>
+	/*基本样式*/
 	#container{ font-size: 12px; font-family: arial, sans-serif;}
 	p{ margin: 0 10px 10px}
 	#header{ height: 80px; background-color: rgb(238,238,238); color: rgb(122,177,36); padding-left: 10px; line-height: 80px; }
 	#header h1{ margin: 0;}
-
-	#wrapper{ width: 100%; margin-left: -200px;}
-	#content{ padding-left: 200px; line-height: 1.4; background-color: #efefef;}
-
-	#navigation{ float: right; width: 200px; background-color: rgb(186,203,253);}
-	#extra{ clear: right; float: right; width: 200px; margin-left: 0%; background-color: rgb(253,133,67);}
-	#footer{ clear: both; height: 14px;  padding:5px 10px 5px 10px; color: #FFF; background-color: #333; width:100%; }
+	#navigation{ background-color: rgb(186,203,253);}
+	#extra{ background-color: rgb(253,133,67);}
+	#footer{ height: 14px;  padding:5px 10px 5px 10px; color: #FFF; background-color: #333;}
 	#footer p{line-height: 14px; margin: 0px;}
+
+	/*布局*/
+	#wrapper{ float: left; margin-left: -200px; width: 100%;}
+	#content{ margin-left: 200px;}
+	#navigation{ float: right; width: 200px;}
+	#extra{ float: right; clear: right; width: 200px; }
+	#footer{ clear: both; }
 	</style>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
 			<h1>Header</h1>
-		</div>
-		
-		<div id="navigation">
-			<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
-		</div>
-		<div id="extra">
-			<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very</p>
 		</div>
 		<div id="wrapper">
 			<div id="content">
@@ -47,7 +50,12 @@ footer 清除浮动
 				<p>column text long column make silly long text filler silly very very very long filler fill very fill silly very make make filler text filler text make silly text text long fill fill make text fill long text very silly long long filler filler fill silly long make column make silly long column long make very</p>
 			</div>	
 		</div>
-		
+		<div id="navigation">
+			<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
+		</div>
+		<div id="extra">
+			<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very</p>
+		</div>
 		<div id="footer">
 			<p>Here it goes the footer</p>
 		</div>
