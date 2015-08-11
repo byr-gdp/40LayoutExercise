@@ -72,3 +72,54 @@
 16. 命名  
 要求：
 	1. 在15的基础上，调换navigation和extra
+
+
+
+17. 命名*（开始涉及float：right）  
+要求：
+	1. wrapper 右对齐(float:right)且宽度自适应，margin-left为400px
+	2. extra、navigation 宽度200px，依次位于content左侧
+	
+18. 命名  
+要求：
+	1. 在17基础上，调换navigation和extra
+	
+19. 命名  
+要求：
+	1. navigation 宽度200px，位于content左侧
+	2. content margin-left:200px margin-right: 33%
+	3. extra 宽度33%，位于content右侧
+
+20. 命名  
+要求：
+	1. navigation 宽度33%，位于content左侧
+	2. content margin-left:33% margin-right: 200px
+	3. extra 宽度200px，位于content右侧
+	
+21. 命名**  
+要求：
+	1. wrapper margin-left:-25%为extra留出空间 width:100%不能省
+	2. content margin-left:25% margin-right: 200px为navigation留出空间
+	3. navigation 宽度200px，位于content右侧
+	4. extra 宽度25%，位于content右侧
+	
+22. 命名**  
+要求：
+	1. wrapper margin-left:-200px为extra留出空间
+	2. content margin-left:200px margin-right: 25%为navigation留出空间
+	3. navigation 宽度25%，位于content右侧
+	4. extra 宽度200px，位于content右侧
+	
+23. 命名**  
+要求：
+	1. wrapper margin-left:-200px为navigation、extra留出空间 width:100%不能省 
+	2. content margin-left:200px 
+	3. navigation 宽度200px，位于content右侧 float:right
+	4. extra 宽度200px，位于content右侧 float:right; clear: right
+
+24. 命名**  
+要求：
+	1. wrapper margin-right:-200px为navigation、extra留出空间 width:100%不能省 
+	2. content margin-right:200px 
+	3. navigation 宽度200px，位于content左侧 float:left
+	4. extra 宽度200px，位于content左侧 float:left; clear: right
