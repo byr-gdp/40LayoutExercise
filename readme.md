@@ -201,7 +201,6 @@
 	
 35. 命名  
 要求：
-	1. 30的扩展，增加container宽度700px，实现方式可简化，因为宽度固定
 	2. container 居中且宽度700px
 	3. wrapper 宽度500px
 	4. navigation 宽度200px，位于content右侧 float:right
@@ -209,9 +208,29 @@
 	
 36. 命名  
 要求：
-	1. 29的扩展，增加container宽度700px，实现方式可简化，因为宽度固定
 	2. container 居中且宽度700px
 	3. wrapper 宽度500px
 	4. navigation 宽度200px，位于content左侧 float:left
-	5. extra 宽度100%，位于content底部
+	5. extra 宽度500px，位于content底部
 
+37. 命名  
+要求：
+	1. container 居中且宽度700px
+	2. wrapper 宽度500px
+	3. navigation 宽度200px，位于content右侧 float:right
+	4. extra 宽度100%，位于content底部
+	
+38. 命名  
+要求：
+	1. 37基础上调换wrapper和navigation顺序
+	
+39. 命名  
+要求：
+	1. container 居中且宽度700px
+	2. wrapper 宽100%
+	3. navigation 宽度50%，位于content底部偏左 
+	4. extra 宽度50%，位于content底部偏右
+	
+40. 命名  
+要求：
+	1. 39基础上调换navigation和extra顺序
