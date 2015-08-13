@@ -1,11 +1,15 @@
 <!-- 
 
-one columns fixed, two halves
+三栏布局
 
-container width: 700px;
-content: 100%;
-left: 50%;
-right: 50%;
+三个部分，分别是wrapper、navigation、extra
+
+要求：
+
+container 居中且宽度700px
+wrapper 宽100%
+navigation 宽度50%，位于content底部偏左 
+extra 宽度50%，位于content底部偏右
 
 -->
 <!DOCTYPE html>
@@ -15,21 +19,22 @@ right: 50%;
 	<title>Document</title>
 	<link rel="stylesheet" href="normalize.css">
 	<style>
-	#container{ font-size: 12px; font-family: arial, sans-serif; width: 700px; margin: 0 auto;}
-	p{ margin: 0 10px 10px}
+	/*基本样式*/
+	#container{ font-size: 12px; font-family: arial, sans-serif;}
+	p{ margin: 0 10px 0}
 	#header{ height: 80px; background-color: rgb(238,238,238); color: rgb(122,177,36); padding-left: 10px; line-height: 80px; }
 	#header h1{ margin: 0;}
-
-	#wrapper{ width: 100%;}
-	#content{ line-height: 1.4;}
-
-	#navigation{ width: 50%; float: left; background-color: rgb(186,203,253);}
-
-	#extra{ width: 50%; float: left; background-color: rgb(253,133,67);}
-	#extra p{ margin: 0 10px;}
-
-	#footer{ clear: both; height: 14px;  padding:5px 10px 5px 10px; color: #FFF; background-color: #333; width: 680px; }
+	#navigation{ background-color: rgb(186,203,253);}
+	#extra{ background-color: rgb(253,133,67);}
+	#footer{ height: 14px;  padding:5px 10px 5px 10px; color: #FFF; background-color: #333;}
 	#footer p{line-height: 14px; margin: 0px;}
+
+	/*布局*/
+	#container{ width: 700px; margin: 0 auto;}
+	#wrapper{ }
+	#navigation{ float: left; width: 50%;}
+	#extra{ float: left; width: 50%; }
+	#footer{ clear: left;}
 	</style>
 </head>
 <body>
@@ -49,7 +54,7 @@ right: 50%;
 			<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
 		</div>
 		<div id="extra">
-			<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very very text make long silly make text very very text make long filler very make column make silly column fill</p>
+			<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very</p>
 		</div>
 		<div id="footer">
 			<p>Here it goes the footer</p>
