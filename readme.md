@@ -1,49 +1,90 @@
-1. 命名  
-要求：
-	1. wrapper 居中且占据50%宽度
-	2. navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧extra
-	
-2. 命名  
-要求：
-	1. 在1的基础上，调换navigation和extra
-	
-3. 命名  
-要求：
-	1. wrapper 左对齐且占据50%宽度
-	2. extra、navigation宽度25%，依次位于content右侧
+# 40LayoutExercise
 
-4. 命名  
-要求：
-	1. 在3的基础上，调换navigation和extra
+## 简述
+
+共40个练习，每个练习具体要求见后文。练习成对，即奇数为需要掌握的知识点，偶数只需简单改动布局顺序即可。
+
+所有练习以如下HTML结构为基础（千万不要改动，否则失去练习的意义）
+
+	<div id="container">
+		<div id="header">Header</div>
+  		<div id="wrapper">
+    		<div id="content">Content</div>
+  		</div>
+  		<div id="navigation">Navigation</div>
+  		<div id="extra">Extra stuff</div>
+  		<div id="footer">Footer</div>
+	</div> 
 	
-5. 命名  
-要求：
-	1. wrapper 右对齐且占据50%宽度
-	2. navigation、extra 宽度25%，依次位于content左侧
+
+## 练习
+
+### 1. Three percentage columns(n.01)  
+
+#### 要求：
+
+1. wrapper 居中且占据50%宽度
+2. navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧extra
 	
-6. 命名  
-要求：	
-	1. 在5的基础上，调换navigation和extra
+### 2. Three percentage columns(n.02)
+
+#### 要求：
+
+1. 在1的基础上，调换navigation和extra
 	
-7. 命名  
-要求：
-	1. container 宽度700px且居中
-	2. wrapper 居中且宽度400px
-	3. extra、navigation 150px，依次位于content两侧
+### 3. Three percentage columns(n.03)  
+
+#### 要求：
+
+1. wrapper 左对齐且占据50%宽度
+2. extra、navigation宽度25%，依次位于content右侧
+
+### 4. Three percentage columns(n.04)
+ 
+#### 要求：
+
+1. 在3的基础上，调换navigation和extra
 	
-8. 命名  
-要求：
-	1. 7的基础上，调换navigation和extra
+### 5. Three percentage columns(n.05)  
+
+#### 要求：
+
+1. wrapper 右对齐且占据50%宽度
+2. navigation、extra 宽度25%，依次位于content左侧
 	
-9. 命名  
-要求：
-	1. container 宽度700px且居中
-	2. wrapper 左对齐且宽度400px
-	3. extra、navigation 150px，依次位于content右侧
+### 6. Three percentage columns(n.06)
+
+#### 要求：	
+
+1. 在5的基础上，调换navigation和extra
 	
-10. 命名  
-要求：
-	1. 在9的基础上，调换navigation和extra
+### 7. Three fixed columns(n.7)
+
+#### 要求：
+
+1. container 宽度700px且居中
+2. wrapper 居中且宽度400px
+3. extra、navigation 150px，依次位于content两侧
+	
+### 8. Three fixed columns(n.8) 
+ 
+#### 要求：
+
+1. 在7的基础上，调换navigation和extra
+	
+### 9. Three fixed columns(n.9)
+  
+#### 要求：
+
+1. container 宽度700px且居中
+2. wrapper 左对齐且宽度400px
+3. extra、navigation 150px，依次位于content右侧
+	
+### 10. Three fixed columns(n.10)
+  
+#### 要求：
+
+1. 在9的基础上，调换navigation和extra
 	
 11. 命名  
 要求：
