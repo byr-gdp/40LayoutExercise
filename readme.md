@@ -16,126 +16,230 @@
   		<div id="footer">Footer</div>
 	</div> 
 	
+目前完成了1-20的文档。
 
 ## 练习
 
-### 1. Three percentage columns(n.01)  
+### 1. Three percentage columns(n.1)  
 
-#### 要求：
+#### 要求
 
 1. wrapper 居中且占据50%宽度
 2. navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧extra
-	
-### 2. Three percentage columns(n.02)
 
-#### 要求：
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc71c465.png)
+
+### 2. Three percentage columns(n.2)
+
+#### 要求
 
 1. 在1的基础上，调换navigation和extra
-	
-### 3. Three percentage columns(n.03)  
 
-#### 要求：
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc11e4bb.png)
+
+### 3. Three percentage columns(n.3)  
+
+#### 要求
 
 1. wrapper 左对齐且占据50%宽度
 2. extra、navigation宽度25%，依次位于content右侧
 
-### 4. Three percentage columns(n.04)
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc1248de.png)
+
+### 4. Three percentage columns(n.4)
  
-#### 要求：
+#### 要求
 
 1. 在3的基础上，调换navigation和extra
-	
-### 5. Three percentage columns(n.05)  
 
-#### 要求：
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc135b22.png)
+	
+
+### 5. Three percentage columns(n.5)  
+
+#### 要求
 
 1. wrapper 右对齐且占据50%宽度
 2. navigation、extra 宽度25%，依次位于content左侧
-	
-### 6. Three percentage columns(n.06)
 
-#### 要求：	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc20cbf1.png)
+	
+
+### 6. Three percentage columns(n.6)
+
+#### 要求
 
 1. 在5的基础上，调换navigation和extra
 	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc216818.png)	
+	
 ### 7. Three fixed columns(n.7)
 
-#### 要求：
+#### 要求
 
 1. container 宽度700px且居中
 2. wrapper 居中且宽度400px
 3. extra、navigation 150px，依次位于content两侧
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc5c6615.png)
 	
+
 ### 8. Three fixed columns(n.8) 
  
-#### 要求：
+#### 要求
 
 1. 在7的基础上，调换navigation和extra
 	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc5c6e98.png)	
+	
 ### 9. Three fixed columns(n.9)
   
-#### 要求：
+#### 要求
 
 1. container 宽度700px且居中
 2. wrapper 左对齐且宽度400px
 3. extra、navigation 150px，依次位于content右侧
 	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc59af23.png)	
+	
 ### 10. Three fixed columns(n.10)
   
-#### 要求：
+#### 要求
 
 1. 在9的基础上，调换navigation和extra
-	
-11. 命名  
-要求：
-	1. container 宽度700px且居中
-	2. wrapper 右对齐且宽度400px
-	3. navigation、extra 150px，依次位于content右侧
-	
-12. 命名  
-要求：
-	1. 在11的基础上，调换navigation和extra
-	
-13. 命名  
-要求：
-	1. wrapper 居中且宽度自适应，margin-left及margin-right为200px
-	2. extra、navigation 宽度200px，分别位于content两侧
-	
-14. 命名  
-要求：
-	1. 在13的基础上，调换navigation和extra
-	
-15. 命名  
-要求：
-	1. wrapper 左对齐且宽度自适应，margin-right为400px
-	2. navigation、extra 宽度200px，依次位于content右侧
-	
-16. 命名  
-要求：
-	1. 在15的基础上，调换navigation和extra
 
+#### 图示
 
-
-17. 命名*（开始涉及float：right）  
-要求：
-	1. wrapper 右对齐(float:right)且宽度自适应，margin-left为400px
-	2. extra、navigation 宽度200px，依次位于content左侧
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9bc61c7e7.png)
 	
-18. 命名  
-要求：
-	1. 在17基础上，调换navigation和extra
-	
-19. 命名  
-要求：
-	1. navigation 宽度200px，位于content左侧
-	2. content margin-left:200px margin-right: 33%
-	3. extra 宽度33%，位于content右侧
+### 11. Three fixed columns(n.11)
+  
+#### 要求
 
-20. 命名  
-要求：
-	1. navigation 宽度33%，位于content左侧
-	2. content margin-left:33% margin-right: 200px
-	3. extra 宽度200px，位于content右侧
+1. container 宽度700px且居中
+2. wrapper 右对齐且宽度400px
+3. navigation、extra 150px，依次位于content左侧
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9e0937d7a.png)	
+	
+### 12. Three fixed columns(n.12) 
+
+#### 要求
+
+1. 在11的基础上，调换navigation和extra
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9df563d0f.png)	
+	
+### 13. Liquid, secondary columns fixed-width (n.13)
+ 
+#### 要求
+
+1. wrapper 居中且宽度自适应，margin-left及margin-right为200px
+2. extra、navigation 宽度200px，分别位于content两侧
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfa34cd4.png)	
+	
+### 14. Liquid, secondary columns fixed-width (n.14)
+
+#### 要求
+
+1. 在13的基础上，调换navigation和extra
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfb1a944.png)	
+	
+### 15. Liquid, secondary columns fixed-width (n.15)  
+
+#### 要求
+
+1. wrapper 左对齐且宽度自适应，margin-right为400px
+2. navigation、extra 宽度200px，依次位于content右侧
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9df634e8e.png)	
+	
+### 16. Liquid, secondary columns fixed-width (n.16) 
+
+#### 要求
+
+1. 在15的基础上，调换navigation和extra
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfcb4d2c.png)
+
+### 17. Liquid, secondary columns fixed-width (n.17)（开始float：right）  
+
+#### 要求
+
+1. wrapper 右对齐(float:right)且宽度自适应，margin-left为400px
+2. extra、navigation 宽度200px，依次位于content左侧
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9df840ea1.png)
+	
+
+### 18. Liquid, secondary columns fixed-width (n.18) 
+
+#### 要求
+
+1. 在17基础上，调换navigation和extra
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfd8cbd3.png)
+	
+
+### 19. Liquid, three columns, hybrid widths (n.19)(混合宽度)
+  
+#### 要求
+
+1. navigation 宽度200px，位于content左侧
+2. content margin-left:200px margin-right: 33%
+3. extra 宽度33%，位于content右侧
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfcbb973.png)
+
+### 20. Liquid, three columns, hybrid widths (n.19)(混合宽度)
+
+#### 要求
+
+1. navigation 宽度33%，位于content左侧
+2. content margin-left:33% margin-right: 200px
+3. extra 宽度200px，位于content右侧
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfe13b6b.png)	
 	
 21. 命名（重要）  
 要求：
