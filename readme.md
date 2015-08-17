@@ -241,76 +241,139 @@
 
 ![image](https://ooo.0o0.ooo/2015/08/14/55cd9dfe13b6b.png)	
 	
-21. 命名（重要）  
-要求：
-	1. wrapper margin-left:-25%为extra留出空间 width:100%不能省
-	2. content margin-left:25% margin-right: 200px为navigation留出空间
-	3. navigation 宽度200px，位于content右侧
-	4. extra 宽度25%，位于content右侧
-	
-22. 命名（重要）  
-要求：
-	1. wrapper margin-left:-200px为extra留出空间
-	2. content margin-left:200px margin-right: 25%为navigation留出空间
-	3. navigation 宽度25%，位于content右侧
-	4. extra 宽度200px，位于content右侧
-	
-23. 命名（重要float:left|right）  
-要求：
-	1. wrapper margin-left:-200px为navigation、extra留出空间 width:100%不能省 
-	2. content margin-left:200px 
-	3. navigation 宽度200px，位于content右侧 float:right
-	4. extra 宽度200px，位于content右侧 float:right; clear: right
+### 21. Liquid, three columns, hybrid widths (n.21)  
 
-24. 命名（重要float:left|right）  
-要求：
-	1. wrapper margin-right:-200px为navigation、extra留出空间 width:100%不能省 
-	2. content margin-right:200px 
-	3. navigation 宽度200px，位于content左侧 float:left
-	4. extra 宽度200px，位于content左侧 float:left; clear: right
-	
-25. 命名（重要float:left|right）
-要求：
-	1. 23基础上将固定宽度200px换成百分比30%
-	2. wrapper margin-left:-30%为navigation、extra留出空间 width:100%不能省 
-	3. content margin-left:30% 
-	4. navigation 宽度30%，位于content右侧 float:right
-	5. extra 宽度30%，位于content右侧 float:right clear: right
-	
-26. 命名（重要float:left|right）
-要求：
-	1. 24基础上将固定宽度200px换成百分比30%
-	2. wrapper margin-right:-30%为navigation、extra留出空间 width:100%不能省 
-	3. content margin-right:30% 
-	4. navigation 宽度30%，位于content左侧 float:left
-	5. extra 宽度30%，位于content左侧 float:left clear: left
-	
-27. 命名
-要求：
-	1. wrapper 占满一行 
-	2. navigation 宽度50%，位于content底部偏左 
-	3. extra 宽度50%，位于content底部偏右
-	
-28. 命名
-要求：
-	1. wrapper 占满一行 
-	2. navigation 宽度50%，位于content底部偏右
-	3. extra 宽度50%，位于content底部偏左
+#### 要求
 
-29. 命名  
-要求：
-	1. wrapper margin-right:-30%为navigation留出空间 width:100%不能省 
-	2. content margin-right:30% 
-	3. navigation 宽度30%，位于content左侧
-	4. extra 宽度100%，位于content底部 
+1. wrapper margin-left:-25%为extra留出空间 width:100%不能省
+2. content margin-left:25% margin-right: 200px为navigation留出空间
+3. navigation 宽度200px，位于content右侧
+4. extra 宽度25%，位于content右侧
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d1924ba72bb.png)	
+
+### 22. Liquid, three columns, hybrid widths (n.22) 
+
+#### 要求
+
+1. wrapper margin-left:-200px为extra留出空间
+2. content margin-left:200px margin-right: 25%为navigation留出空间
+3. navigation 宽度25%，位于content右侧
+4. extra 宽度200px，位于content右侧
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d1924cb6ce6.png)
 	
-30. 命名  
-要求：
-	1. 在29的基础上，调换wrapper和navigation
-	1. wrapper margin-left:-30%为navigation留出空间 width:100%不能省 
-	2. content margin-left:30% 
-	3. navigation 宽度30%，位于content右侧
-	4. extra 宽度100%，位于content底部 
+
+### 23. Two columns liquid, side fixed (n.23)(flaot left|right)
+
+#### 要求
+
+1. wrapper margin-left:-200px为navigation、extra留出空间 width:100%不能省 
+2. content margin-left:200px 
+3. navigation 宽度200px，位于content右侧 float:right
+4. extra 宽度200px，位于content右侧、navigation底部 float:right; clear: right
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d1924e0e616.png)
+
+### 24. Two columns liquid, side fixed (n.24)(flaot left|right)
+
+#### 要求
+
+1. wrapper margin-right:-200px为navigation、extra留出空间 width:100%不能省 
+2. content margin-right:200px 
+3. navigation 宽度200px，位于content左侧 float:left
+4. extra 宽度200px，位于content左侧、navigation底部 float:left; clear: right
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d1924e5621d.png)	
+	
+### 25. Two percentage columns (n.25)（float left|right）
+
+#### 要求
+
+1. 23基础上将固定宽度200px换成百分比30%
+2. wrapper margin-left:-30%为navigation、extra留出空间 width:100%不能省 
+3. content margin-left:30% 
+4. navigation 宽度30%，位于content右侧 float:right
+5. extra 宽度30%，位于content右侧 float:right clear: right
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d1924d3b9ac.png)	
+	
+### 26. Two percentage columns (n.25)（float left|right）
+
+#### 要求
+
+1. 24基础上将固定宽度200px换成百分比30%
+2. wrapper margin-right:-30%为navigation、extra留出空间 width:100%不能省 
+3. content margin-right:30% 
+4. navigation 宽度30%，位于content左侧 float:left
+5. extra 宽度30%，位于content左侧 float:left clear: left
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d192502d195.png)	
+	
+### 27. One column liquid and two halves (n.27)
+
+#### 要求
+
+1. wrapper 占满一行 
+2. navigation 宽度50%，位于content底部偏左 
+3. extra 宽度50%，位于content底部偏右
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d192505131e.png)
+	
+### 28. One column liquid and two halves (n.27)
+
+#### 要求
+	
+1. wrapper 占满一行 
+2. navigation 宽度50%，位于content底部偏右
+3. extra 宽度50%，位于content底部偏左
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d19250bd9c5.png)
+
+### 29. Two percentage columns and one larger (n.29)  
+
+#### 要求
+
+1. wrapper margin-right:-30%为navigation留出空间 width:100%不能省 
+2. content margin-right:30% 
+3. navigation 宽度30%，位于content左侧
+4. extra 宽度100%，位于content底部 
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d19251d132a.png)	
+	
+### 30. Two percentage columns and one larger (n.29)  
+
+#### 要求
+
+1. 在29的基础上，调换wrapper和navigation
+1. wrapper margin-left:-30%为navigation留出空间 width:100%不能省 
+2. content margin-left:30% 
+3. navigation 宽度30%，位于content右侧
+4. extra 宽度100%，位于content底部 
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/17/55d192538bd5b.png)
+
+---
 	
 31. 命名  
 要求：
