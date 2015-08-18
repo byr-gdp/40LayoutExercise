@@ -375,70 +375,130 @@
 
 ---
 	
-31. 命名  
-要求：
-	1. 在29基础上，把百分比宽度30%换成固定200px
-	2. wrapper margin-right:-200px为navigation留出空间 
-	3. content margin-right:200px 
-	4. navigation 宽度200px，位于content左侧
-	5. extra 宽度100%，位于content底部 
+### 31. Two columns liquid, fixed side and large one (n.31)
+  
+#### 要求
 	
-32. 命名  
-要求：
-	1. 在30基础上，把百分比宽度30%换成固定200px
-	2. wrapper margin-left:-200px为navigation留出空间 
-	3. content margin-left:200px 
-	4. navigation 宽度200px，位于content右侧
-	5. extra 宽度100%，位于content底部 
+1. 在29基础上，把百分比宽度30%换成固定200px
+2. wrapper margin-right:-200px为navigation留出空间 
+3. content margin-right:200px 
+4. navigation 宽度200px，位于content左侧
+5. extra 宽度100%，位于content底部 
+	
+#### 图示
 
-33. 命名  
-要求：
-	1. 23的扩展，增加container宽度700px，实现方式可简化，因为宽度固定  
-	1. container 居中且宽度700px
-	2. wrapper 宽度500px
-	3. navigation 宽度200px，位于content右侧 float:right
-	4. extra 宽度200px，位于content右侧 float:right; clear: right
-	
-34. 命名  
-要求：
-	1. 24的扩展，增加container宽度700px，实现方式可简化，因为宽度固定 
-	1. container 居中且宽度700px
-	2. wrapper 宽度500px
-	3. navigation 宽度200px，位于content左侧 float:left
-	4. extra 宽度200px，位于content左侧 float:left; clear: left
-	
-35. 命名  
-要求：
-	2. container 居中且宽度700px
-	3. wrapper 宽度500px
-	4. navigation 宽度200px，位于content右侧 float:right
-	5. extra 宽度100%，位于content底部
-	
-36. 命名  
-要求：
-	2. container 居中且宽度700px
-	3. wrapper 宽度500px
-	4. navigation 宽度200px，位于content左侧 float:left
-	5. extra 宽度500px，位于content底部
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee89ea4a1.png)
 
-37. 命名  
-要求：
-	1. container 居中且宽度700px
-	2. wrapper 宽度500px
-	3. navigation 宽度200px，位于content右侧 float:right
-	4. extra 宽度100%，位于content底部
+### 32. Two columns liquid, fixed side and large one (n.32)
+  
+#### 要求
+
+1. 在30基础上，把百分比宽度30%换成固定200px
+2. wrapper margin-left:-200px为navigation留出空间 
+3. content margin-left:200px 
+4. navigation 宽度200px，位于content右侧
+5. extra 宽度100%，位于content底部 
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee92bda19.png)
+
+### 33. Two colums fixed (n.33) 
+
+#### 要求
+
+1. 23的扩展，增加container宽度700px，实现方式可简化，因为宽度固定  
+1. container 居中且宽度700px
+2. wrapper 宽度500px
+3. navigation 宽度200px，位于content右侧 float:right
+4. extra 宽度200px，位于content右侧 float:right; clear: right
 	
-38. 命名  
-要求：
-	1. 37基础上调换wrapper和navigation顺序
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee8e86837.png)	
 	
-39. 命名  
-要求：
-	1. container 居中且宽度700px
-	2. wrapper 宽100%
-	3. navigation 宽度50%，位于content底部偏左 
-	4. extra 宽度50%，位于content底部偏右
+### 34. Two colums fixed (n.34) 
+ 
+#### 要求
+
+1. 24的扩展，增加container宽度700px，实现方式可简化，因为宽度固定 
+1. container 居中且宽度700px
+2. wrapper 宽度500px
+3. navigation 宽度200px，位于content左侧 float:left
+4. extra 宽度200px，位于content左侧 float:left; clear: left
 	
-40. 命名  
-要求：
-	1. 39基础上调换navigation和extra顺序
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee8e9cc3f.png)	
+	
+### 35. Two colums fixed (n.35)
+
+#### 要求
+
+2. container 居中且宽度700px
+3. wrapper 宽度500px
+4. navigation 宽度200px，位于content右侧 float:right
+5. extra 宽度100%，位于content底部（思考clear取值）
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee8ee19ae.png)	
+	
+### 36. Two colums fixed (n.36) 
+
+#### 要求
+
+2. container 居中且宽度700px
+3. wrapper 宽度500px
+4. navigation 宽度200px，位于content左侧 float:left
+5. extra 宽度500px，位于content底部
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee8faa157.png)
+
+### 37. Two colums fixed (n.37) 
+
+#### 要求
+	
+1. container 居中且宽度700px
+2. wrapper 宽度500px
+3. navigation 宽度200px，位于content右侧 float:right
+4. extra 宽度100%，位于content底部
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2ee9e951d7.png)	
+	
+### 38. Two colums fixed (n.38) 
+
+#### 要求
+
+1. 37基础上调换wrapper和navigation顺序
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2eea1dc5ba.png)	
+	
+### 39. One column fixed and two halves (n.39)  
+
+#### 要求
+	
+1. container 居中且宽度700px
+2. wrapper 宽100%
+3. navigation 宽度50%，位于content底部偏左 
+4. extra 宽度50%，位于content底部偏右
+	
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2eea066350.png)	
+	
+### 40. One column fixed and two halves (n.40) 
+
+#### 要求
+
+1. 39基础上调换navigation和extra顺序
+
+#### 图示
+
+![image](https://ooo.0o0.ooo/2015/08/18/55d2eea062b91.png)
