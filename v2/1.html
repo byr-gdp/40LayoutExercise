@@ -1,0 +1,81 @@
+<!--
+
+三栏布局
+
+三个部分，分别是wrapper、navigation、extra
+
+要求：
+
+wrapper 居中且占据50%宽度
+navigation、extra 宽度25%，分居content两侧，左侧navigation，右侧extra
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css">
+	<style>
+  /*思考为何 wrapper 需要 float*/
+  /*元素浮动后，display 变为 inline-block，所以后面的元素才可以通过 margin-left 负值来回到上一行*/
+
+	/*.wrapper{
+    float: left;
+    width: 100%;
+  }
+
+  .content{
+    margin: 0 25%;
+  }*/
+
+  /*以下样式规则可以替代上面注释内容*/
+  .wrapper{
+    float: left;
+    margin: 0 25%;
+  }
+
+  .navigation{
+    width: 25%;
+    float: left;
+    margin-left: -100%;
+  }
+
+  .extra{
+    width: 25%;
+    float: left;
+    margin-left: -25%;
+  }
+
+  .footer{
+    /*若不清除浮动，footer 高度会包含整个 container 内容，通过设置 background-color 可以看到*/
+    clear: left;
+  }
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Header</h1>
+		</div>
+		<div class="wrapper">
+			<div class="content">
+				<p><strong>1) Content here. </strong>column long long column very long fill fill fill long text text column text silly very make long very fill silly make make long make text fill very long text column silly silly very column long very column filler fill long make filler long silly very long silly silly silly long filler make column filler make silly long long fill very.</p>
+				<p>very make make fill silly long long filler column long make silly silly column filler fill fill very filler text fill filler column make fill make text very make make very fill fill long make very filler column very long very filler silly very make filler silly make make column column</p>
+				<p>fill long make long text very make long fill column make text very silly column filler silly text fill text filler filler filler make make make make text filler fill column filler make silly make text text fill make very filler column very</p>
+				<p>column text long column make silly long text filler silly very very very long filler fill very fill silly very make make filler text filler text make silly text text long fill fill make text fill long text very silly long long filler filler fill silly long make column make silly long column long make very</p>
+			</div>
+		</div>
+		<div class="navigation">
+			<p><strong>2) Navigation here.</strong>long long fill filler very fill column column silly filler very filler fill fill filler text fill very silly fill text filler silly silly filler fill very make fill column text column very very column fill fill very silly column silly silly fill fill long filler</p>
+		</div>
+		<div class="extra">
+			<p><strong>3) More stuff here.</strong>very text make long silly make text very very text make long filler very make column make silly column fill silly column long make silly filler column filler silly long long column fill silly column very</p>
+		</div>
+		<div class="footer">
+			<p>Here it goes the footer</p>
+		</div>
+	</div>
+</body>
+</html>
